@@ -1,0 +1,26 @@
+{
+    "name": "ITKamianets.Engine.Assets",
+    "rootNamespace": "ITKamianets.Engine.Assets",
+    "references": [
+        "ITKamianets.Engine.Core",
+        "ITKamianets.Engine.Scene",
+        "glTFast"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cloud.gltfast",
+            "expression": "",
+            "define": "GLTFAST_PRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}

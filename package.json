@@ -1,0 +1,25 @@
+{
+  "name": "com.itkamianets.3d-unity-assets",
+  "version": "0.1.0",
+  "displayName": "IT-Kamianets 3D Engine: Unity Assets",
+  "description": "Loads 3d-asset-schema assets by id in Unity: GLB models (with glTFast), materials, textures, sounds, Unity prefabs from a catalog; placeholders while loading, a missing-asset stand-in, caching and unloading. Resolves scene objects for 3d-unity-scene.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "IT Kamianets"
+  },
+  "keywords": [
+    "3d-engine",
+    "it-kamianets"
+  ],
+  "dependencies": {
+    "com.itkamianets.3d-unity-core": "0.1.0",
+    "com.itkamianets.3d-unity-scene": "0.1.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.unitywebrequestaudio": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0"
+  }
+}
